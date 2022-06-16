@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.btn{
+    @apply text-white bg-red-400  rounded shadow-amber-300 p-3 hover:scale-[1.1] ease-in 
+    duration-100 cursor-pointer
+    hover:bg-red-500
+}
+.btnSec{
+    @apply text-white bg-gray-400 rounded-full shadow-amber-300 p-3 hover:scale-[1.1] ease-in 
+    duration-100 cursor-pointer 
+    hover:bg-blue-500
+}
